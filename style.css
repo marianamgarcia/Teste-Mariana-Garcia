@@ -1,0 +1,266 @@
+/*
+Theme Name: Landing Page
+Author: Mariana Garcia
+Author URI: https://www.seuendereco.com.br/
+Description: Tema customizado para landing page.
+Version: 1.0.0
+Text Domain: your-theme
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+
+html, body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+}
+
+
+ul {
+    list-style:none!important;
+}
+   
+
+ul li {
+    display: inline;
+    
+}
+
+.pd-50 {
+    padding-top: 50px;
+}
+
+.pd-180 {
+    padding-top: 180px;
+   
+}
+
+.pd-right {
+    padding-right: 65px!important;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-mb-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mt-mb-15-40 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-10 {
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.fz-14-gray {
+    font-size:14px;
+    color:#A0A0A0;
+}
+
+.fz-15-gray {
+    font-size:15px;
+    color:#A0A0A0;
+    margin-top: 25px;
+}
+
+.fz-14-black {
+    font-size: 14px;
+    color:#1C1C1C;
+    margin-top: 25px;
+}
+
+
+h1 {
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.h1-big {
+    font-size: 62px;
+    line-height: 56px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+
+.bg-gray {
+    background-color: #F5F5F5;
+    padding:70px 15px;
+    margin-top: 100px;
+
+}
+
+.btn-primary {
+    background-color: #FFFFFF;
+    border: 4px solid #1C1C1C;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.btn-primary:hover {
+    background-color: #1C1C1C;
+    border: 4px solid #1C1C1C;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btn-slide {
+    width: 170px;
+}
+
+.formulario {
+    background: #FFFFFF;
+    font-size: 15px;
+    line-height: 25px;
+    color: #D2B356;
+    padding: 25px;
+}
+
+.banner {
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+.banner-txt {
+    max-width: 300px;
+    text-transform: uppercase;
+}
+
+.wp-post-image {
+    min-width: 400px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    color:#A0A0A0;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    margin-left: 50px;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 4px solid #D2B356;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    max-width: 150px;
+}
+
+.bg-light {
+    background-color: #FFFFFF!important;
+}
+
+.logo img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+
+header i {
+    color: #D2B356;
+    font-size: 25px;
+    text-align: right;
+    margin-top: -50px;
+}
+
+footer i { 
+    color: #D2B356;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .resp-center {
+        text-align: center;
+    }
+    .resp-right {
+        text-align: right;
+    }
+    .resp-left {
+        text-align: left;
+    }
+    .box {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .box-15 {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+    .box-10 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .pd-25 {
+        padding-top: 25px;
+    }
+    .mt0 {
+        margin-top: -120px;
+    }
+    .mt20 {
+        margin-top: -20px;
+    }
+    .mt40 {
+        margin-top: -40px;
+    }
+    iframe {
+        display: none;
+    }
+    .navbar-brand {
+        max-width: 120px;
+    }
+    .banner {
+        background-image: url("imagens/bg.png")!important;
+        margin-right: 5%!important;
+        min-height: 680px;
+    }
+    .navbar-toggler-icon {
+        align-content: center;
+    }
+}
+
