@@ -263,5 +263,10 @@ footer i {
     .navbar-toggler-icon {
         align-content: center;
     }
+    .wp-post-image {
+        min-width: 250px;
+        max-width: 60%;
+        height: auto;
+    }
 }
 
