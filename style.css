@@ -223,6 +223,7 @@ footer i {
     }
     .resp-left {
         text-align: left;
+        padding-left: 60px;
     }
     .box {
         padding-left: 20%;
