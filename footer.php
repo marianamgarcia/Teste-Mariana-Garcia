@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-sm-7 resp-center">
+            <div class="col-lg-10 col-sm-7 resp-left">
                 <p>Feito com amor por Mariana</p>
             </div>
 
