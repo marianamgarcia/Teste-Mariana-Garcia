@@ -48,19 +48,19 @@
                             <a class="nav-link" href="#sobre">sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio">Portfólio</a>
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="servicos">Serviços</a>
+                            <a class="nav-link" href="#servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="opinioes">Opiniões</a>
+                            <a class="nav-link" href="#opinioes">Opiniões</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="clientes">Clientes</a>
+                            <a class="nav-link" href="#clientes">Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
