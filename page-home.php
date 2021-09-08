@@ -97,7 +97,7 @@ include "header.php";
                 $loop = new WP_Query( $args );
                 while ( $loop->have_posts() ) : $loop->the_post();
             ?>
-            <div class="col-md-4 col-sm-12 text-center margin-auto p-0" id="Serviços">
+            <div class="col-md-4 col-sm-12 text-center margin-auto p-0 post-image" id="Serviços">
                 <?php 
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail();
