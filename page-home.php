@@ -69,7 +69,7 @@ include "header.php";
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 box pd-25">
                         <img src="<?php echo get_template_directory_uri(); ?>/imagens/responsividade.png" alt="">
-                        <h2 class="mt-20">Reponsividade</h2>
+                        <h2 class="mt-20">Responsividade</h2>
                         <p>É fundamental para páginas da Internet que estejam preparadas para oferecer uma boa experiência no celular.</p>
                     </div>
                     
